@@ -1,0 +1,34 @@
+# Ignore everything
+# *
+# .*
+
+# But not these files...
+!.gitignore
+# *.README.md
+
+# If you want to keep a folder, for example 'src', add:
+!src/
+
+# Python bytecode and cache
+__pycache__/
+# *.py
+*.pyo
+
+
+# Virtual environment
+.venv/
+*.vs
+*.gitkeep
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
+
+# Environment variables
+.env
